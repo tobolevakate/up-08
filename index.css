@@ -1,8 +1,16 @@
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url(./fonts/OpenSans-SemiBold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'OpenSans-SemiBold';
 }
 
 .header{
@@ -31,4 +39,5 @@
 }
 .navigation__link{
     color: white;
+    font-size: 14px;
 }
