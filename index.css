@@ -61,7 +61,7 @@
     font-size: 14px;
 }
 
-.head{
+.wrapper__head{
     position: relative;
 }
 .header__back{
@@ -96,4 +96,33 @@ a.button {
     padding-left: 40px;
     height: 51px;
     width: 160px;
-  }
+}
+
+.wrapper__slider{
+    margin-top: 174px;
+}
+.slider__project{
+    display: flex;
+}
+.borders{
+    margin-right: 40px;
+}
+.border{
+    border-top: 3px solid #005BC1;
+    width: 100px;
+    margin-bottom: 13px;
+}
+.border__bottom{
+    border-top: 3px solid #005BC1;
+    width: 50px;
+    margin-left: 50px;
+}
+.project__text{
+    font-family: 'Oswald-Regular';
+    font-size: 30px;
+}
+
+
+.slider__img{
+    display: flex;
+}
