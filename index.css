@@ -16,7 +16,12 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face{
+    font-family: 'OpenSans-Light';
+    src: url(./fonts/OpenSans-Light.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 *{
     margin: 0;
@@ -80,6 +85,7 @@
     color: white;
     font-size: 48px;
     margin-bottom: 40px;
+    font-weight: 100;
 }
 .content__text{
     font-family: 'OpenSans-Regular';
@@ -99,13 +105,14 @@ a.button {
 }
 
 .wrapper__slider{
-    margin-top: 174px;
+    margin-top: 150px;
 }
 .slider__project{
     display: flex;
 }
 .borders{
     margin-right: 40px;
+    margin-top: 18px;
 }
 .border{
     border-top: 3px solid #005BC1;
@@ -117,12 +124,54 @@ a.button {
     width: 50px;
     margin-left: 50px;
 }
-.project__text{
+.main__title{
     font-family: 'Oswald-Regular';
     font-size: 30px;
+    font-weight: 100;
+    margin-right: 660px;
+    margin-top: 6px;
+    letter-spacing: 1px;
 }
-
-
+.project__buttons{
+    display: flex;
+    margin-bottom: 65px;
+}
+.button__slider{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border: 2px solid #005BC1;
+}
+.button_b{
+    border-left: 1px;
+}
 .slider__img{
     display: flex;
+}
+.img__link:first-child{
+    margin-right: 30px;
+}
+.img__link{
+    position: relative;
+}
+.img__slide{
+    position: absolute;
+    width: 250px;
+    height: 110px;
+    background-color: white;
+    bottom: 35px;
+    right: 35px;
+    z-index: 2;
+    padding: 20px;
+    padding-left: 25px;
+}
+.slide__title{
+    font-family: 'Oswald-Regular';
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+.slide__text{
+    font-family: 'OpenSans-Light';
+    font-size: 14px;
 }
