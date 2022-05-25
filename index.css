@@ -31,6 +31,11 @@
     font-family: 'OpenSans-SemiBold';
 }
 
+.container{
+    margin: auto;
+    max-width: 1920px;
+}
+
 .wrapper{
     width: 1110px;
     margin: auto;
@@ -38,6 +43,7 @@
 
 .header{
     background: url(./img/Rectangle\ 2.png);
+    background-repeat: no-repeat;
 }
 .nav{
     display: flex;
@@ -187,4 +193,5 @@ a.button {
 .slide__text{
     font-family: 'OpenSans-Light';
     font-size: 14px;
+    color: black;
 }
