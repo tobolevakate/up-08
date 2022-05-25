@@ -259,3 +259,11 @@ a.button {
 .text__card_a{
     padding-top: 15px;
 }
+
+.wrapper__rent{
+    margin-top: 150px;
+}
+.rent__title{
+    display: flex;
+    margin-bottom: 40px;
+}
