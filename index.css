@@ -172,6 +172,7 @@ a.button {
 }
 .img__link{
     position: relative;
+    height: 400px;
 }
 .img__slide{
     position: absolute;
@@ -194,4 +195,11 @@ a.button {
     font-family: 'OpenSans-Light';
     font-size: 14px;
     color: black;
+}
+
+.wrapper__catalog{
+    margin-top: 150px;
+}
+.catalog__title{
+    display: flex;
 }
