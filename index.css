@@ -144,6 +144,7 @@ a.button {
     margin-right: 660px;
     margin-top: 6px;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 .project__buttons{
     display: flex;
@@ -266,4 +267,65 @@ a.button {
 .rent__title{
     display: flex;
     margin-bottom: 40px;
+}
+.rent__content{
+    display: flex;
+}
+.rent__text{
+    width: 350px;
+    height: 175px;
+    margin-top: 110px;
+    margin-right: 95px;
+}
+.text{
+    font-family: 'OpenSans-Light';
+    font-size: 18px;
+}
+.rent__card{
+    border: 3px solid #005BC1;
+    width: 665px;
+    height: 394px;
+    padding: 30px;
+}
+.rent__card_title{
+    display: flex;
+    margin-bottom: 29px;
+}
+.card__title_text{
+    text-transform: uppercase;
+    font-family: 'Oswald-Regular';
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 12px;
+}
+
+.rent__card_content{
+    display: flex;
+}
+
+
+.rent__card_list{
+    margin-left: 30px;
+}
+.card__list_title{
+    text-transform: uppercase;
+    font-family: 'Oswald-Regular';
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.card__list{
+    height: 152px;
+    width: 320px;
+    padding-right: 30px;
+    list-style-position: inside;
+}
+.card__item_rent{
+    font-family: 'OpenSans-Light';
+    font-size: 14px;
+    margin-bottom: 20px;
+    
+}
+.card__item_rent:last-child{
+    margin-bottom: 0px;
 }
