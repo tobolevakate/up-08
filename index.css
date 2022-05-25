@@ -154,18 +154,18 @@ a.button {
     display: inline-block;
     width: 55px;
     height: 55px;
-    border: 3px solid #005BC1;
+    border: 2px solid #005BC1;
 }
 .button_b{
-    border-left: 2px;
+    border-left: 1px;
 }
 .arrow {
     width: 13px;
     height: 13px;
-    border-top: 3px solid #005BC1;
-    border-right: 3px solid #005BC1;;
+    border-top: 2px solid #005BC1;
+    border-right: 2px solid #005BC1;;
     margin-top: 20px;
-    margin-left: 22px;
+    margin-left: 20px;
 }
 .arrow {transform: rotate(-135deg);}  
 .arrow__right{
@@ -297,8 +297,20 @@ a.button {
     font-size: 18px;
     letter-spacing: 1px;
     margin-top: 12px;
+    margin-right: 56px;
 }
-
+.card__title_buttons{
+    display: flex;
+}
+.button__rent{
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    border: 2px solid #005BC1;
+}
+.button_second{
+    border-left: 1px;
+}
 .rent__card_content{
     display: flex;
 }
