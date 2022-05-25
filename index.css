@@ -202,4 +202,22 @@ a.button {
 }
 .catalog__title{
     display: flex;
+    margin-bottom: 70px;
+}
+.catalog__nav{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.catalog__links{
+    font-family: 'Oswald-Regular';
+    font-size: 24px;
+    color: black;
+    letter-spacing: 1px;
+}
+.link_a{
+    color: #005BC1;
+    border-bottom: 2px solid #005BC1;
+    margin-right: 47px;
 }
