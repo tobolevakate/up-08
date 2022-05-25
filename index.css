@@ -221,3 +221,34 @@ a.button {
     border-bottom: 2px solid #005BC1;
     margin-right: 47px;
 }
+.catalog__imgs{
+    display: flex;
+}
+.catalog__link_cards{
+    position: relative;
+    margin-right: 30px;
+    height: 300px;
+}
+.catalog__link_cards:last-child{
+    margin-right: 0px;
+}
+.cards__text{
+    position: absolute;
+    width: 265px;
+    height: 86px;
+    background-color: #005BC1;
+    right: 0px;
+    bottom: 15px;
+    z-index: 2;
+}
+.text__card{
+    font-family: 'Oswald-Regular';
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    padding-left: 21px;
+    padding-top: 30px;
+}
+.text__card_a{
+    padding-top: 15px;
+}
