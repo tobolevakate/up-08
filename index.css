@@ -43,7 +43,6 @@
 
 .header{
     background: url(./img/Rectangle\ 2.png);
-    background-repeat: no-repeat;
 }
 .nav{
     display: flex;
@@ -51,14 +50,22 @@
     align-items: center;
 }
 .nav__logo{
-    margin-right: 555px;
     margin-left: 40px;
     margin-top: 11px;
     margin-bottom: 6px;
 }
+
+.wrapper__nav{
+    margin: auto;
+    width: 1100px;
+    padding-right: 180px;
+}
+
+
 .nav__navigation{
     display: flex;
     list-style-type: none;
+    justify-content: center;
 }
 .navigation__item{
     margin-left: 26px;
