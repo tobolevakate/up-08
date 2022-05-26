@@ -335,6 +335,7 @@ a.button {
 
 .news{
     margin-top: 108px;
+    margin-bottom: 120px;
 }
 .news__title{
     display: flex;
@@ -431,4 +432,26 @@ a.button {
 .date__3{
     margin-left: 25px;
     align-self: flex-end;
+}
+
+.footer{
+    background-color: #005BC1;
+}
+.contact__info{
+    padding-top: 40px;
+    padding-bottom: 25px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    border-bottom: 1px solid white ;
+}
+.info__phone{
+    font-family: 'Oswald-Regular';
+    font-size: 18px;
+}
+.info__adress{
+    font-size: 14px;
+}
+.mail{
+    font-size: 14px;
 }
