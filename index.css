@@ -335,3 +335,7 @@ a.button {
 .card__item_rent:last-child{
     margin-bottom: 0px;
 }
+
+.news__title{
+    display: flex;
+}
