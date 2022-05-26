@@ -419,12 +419,12 @@ a.button {
 }
 .title__3{
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
 }
 .text__3{
     margin-bottom: 20px;
 }
-..date__2{
+.date__2{
     margin-left: 25px;
     align-self: flex-end;
 }
