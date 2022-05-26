@@ -30,23 +30,19 @@
     text-decoration: none;
     font-family: 'OpenSans-SemiBold';
 }
-
-.container{
-    margin: auto;
-    max-width: 1920px;
-}
-
 .wrapper{
     width: 1110px;
     margin: auto;
 }
 
 .header{
-    background: url(./img/Rectangle\ 2.png);
+    background-color: rgba(0, 91, 193, 0.6);
+    margin-bottom: -80px;
+    position: relative;
+    z-index: 2;
 }
 .nav{
     display: flex;
-    background-color: rgba(0, 91, 193, 60%);
     align-items: center;
 }
 .nav__logo{
@@ -54,18 +50,11 @@
     margin-top: 11px;
     margin-bottom: 6px;
 }
-
-.wrapper__nav{
-    margin: auto;
-    width: 1100px;
-    padding-right: 180px;
-}
-
-
 .nav__navigation{
     display: flex;
     list-style-type: none;
-    justify-content: center;
+    margin: auto;
+    padding-right: 160px;
 }
 .navigation__item{
     margin-left: 26px;
@@ -80,6 +69,13 @@
 }
 
 .wrapper__head{
+    display: flex;
+}
+.firstscreen{
+    background: url(./img/Rectangle\ 2.png);
+    padding-top: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
 }
 .header__back{
@@ -88,10 +84,8 @@
     height: 720px;
 }
 .header__content{
-    position: absolute;
-    top: 202px;
-    left: 190px;
-    z-index: 3;
+    margin-top: 230px;
+    margin-left: -256px;
 }
 .content__title{
     font-family: 'Oswald-Regular';
