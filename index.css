@@ -455,3 +455,46 @@ a.button {
 .mail{
     font-size: 14px;
 }
+.footer__nav{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid white ;
+}
+.nav__footer{
+    list-style-type: none;
+}
+.footer__nav_item:first-child{
+    margin-bottom: 10px;
+}
+.footer__link{
+    font-family: 'OpenSans-Light';
+    color: white;
+    font-size: 14px;
+}
+.a{
+    margin-right: 110px;
+}
+.b{
+    margin-right: 141px;
+}
+.footer__info{
+    display: flex;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-between;
+}
+.info{
+    font-family: 'OpenSans-Light';
+    font-size: 14px;
+}
+.design{
+    font-family: 'OpenSans-Light';
+    font-size: 14px;
+}
+.design__link{
+    font-family: 'OpenSans-Light';
+    font-size: 14px;
+    color: white;
+}
