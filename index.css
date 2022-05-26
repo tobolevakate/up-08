@@ -84,7 +84,7 @@
     height: 720px;
 }
 .header__content{
-    margin-top: 230px;
+    margin-top: 202px;
     margin-left: -256px;
 }
 .content__title{
@@ -111,7 +111,7 @@ a.button {
     width: 160px;
 }
 
-.wrapper__slider{
+.slider{
     margin-top: 150px;
 }
 .slider__project{
@@ -199,7 +199,7 @@ a.button {
     color: black;
 }
 
-.wrapper__catalog{
+.catalog{
     margin-top: 150px;
 }
 .catalog__title{
@@ -255,7 +255,7 @@ a.button {
     padding-top: 15px;
 }
 
-.wrapper__rent{
+.rent{
     margin-top: 150px;
 }
 .rent__title{
@@ -308,8 +308,6 @@ a.button {
 .rent__card_content{
     display: flex;
 }
-
-
 .rent__card_list{
     margin-left: 30px;
 }
@@ -319,7 +317,6 @@ a.button {
     letter-spacing: 1px;
     margin-bottom: 30px;
 }
-
 .card__list{
     height: 152px;
     width: 320px;
@@ -336,6 +333,20 @@ a.button {
     margin-bottom: 0px;
 }
 
+.news{
+    margin-top: 108px;
+}
 .news__title{
     display: flex;
+}
+.news__button{
+    display: inline-block;
+    width: 190px;
+    height: 51px;
+    background-color: #005BC1;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 34px;
+    padding-top: 15px;
 }
